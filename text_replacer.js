@@ -1,8 +1,3 @@
-/* 
-    Source: 
-    https://stackoverflow.com/a/34559316/2341469
-*/
-
 function walkText(node) {
     if (node.nodeType == 3) {
         /* 
