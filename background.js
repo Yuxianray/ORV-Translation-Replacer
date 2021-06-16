@@ -13,7 +13,6 @@ chrome.action.onClicked.addListener(function(tab) {
     });
 });
 
-
 // Apply the stored theme on page load
 chrome.webNavigation.onCompleted.addListener(function(details) {
     chrome.tabs.get(details.tabId, function(tab) {
