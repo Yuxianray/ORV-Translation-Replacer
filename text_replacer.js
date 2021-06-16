@@ -1,4 +1,4 @@
-function walkText(node) {
+function replaceText(node) {
     if (node.nodeType == 3) {
         /* 
             Replace additional text by appending the following line below:
@@ -69,5 +69,5 @@ function walkText(node) {
         walkText(node.childNodes[i]);
       }
     }
-  }
-  walkText(document.body);
+}
+replaceText(document.body);
